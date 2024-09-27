@@ -16,7 +16,7 @@ const app = express();
 
 // CORS setup (adjust according to your frontend's URL)
 app.use(cors({
-  origin: process.env.CLIENT_URL || "*", // Add your frontend URL or use '*' for all
+  origin: ["https://e-commerce-frontend-alpha-opal.vercel.app"] || "*", // Add your frontend URL or use '*' for all
   credentials: true
 }));
 
